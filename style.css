@@ -1,0 +1,913 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+}
+footer {
+    width: 1600px;
+    height: 154px;
+    display: flex;
+    justify-content: center;
+    background: #1F2F5C;
+}
+.backgroundTop {
+    position: relative;
+    width: 1600px;
+    height: 815px;
+    background: url(./img/header/backgroundTopSvg.svg);
+    background-color: #F8F9FF;
+}
+.container {
+    width: 1180px;
+    display: flex;
+    flex-direction: column;
+}
+.navigation {
+    width: 1180px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navLogo375px {
+    display: none;
+}
+.menuicon {
+    width: 24px;
+    height: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+.menuicon:hover rect {
+    fill: #FFFFFF;
+    transition: all 0.3s;
+}
+.navigationLink {
+    display: flex;
+    align-items: center;
+}
+.navigationLnk:hover {
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+.navigationLogolink {
+    display: flex;
+    align-items: center;
+}
+.navigationLogoAnalytics {
+    margin-left: 13px;
+}
+.linkProducts {
+    margin-left: 96px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8794BA;
+}
+.linkPricing, .linkFAQ, .linkBlog, .linkBlog2 {
+    margin-left: 36px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8794BA;
+}
+.signIn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8794BA;
+}
+.signIn:hover {
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+.signUp {
+    width: 161px;
+    height: 40px;
+    margin-left: 40px;
+    left: calc(50% - 161px/2 + 510.5px);
+    top: 50px;
+    border: 1px solid #465B95;
+    border-radius: 68px;
+    background: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8794BA;
+    cursor: pointer;
+}
+.signUp:hover {
+    border: none;
+    color: #FFFFFF;
+    background-color: #EF2A82;
+}
+.section1 {
+    display: flex;
+    justify-content: center;
+}
+.section1LeftContent {
+    margin-top: 152px;
+    width: 550px;
+    height: 315px;
+}
+.secImg375px {
+    display: none;
+}
+.MonitorYourBusiness {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.section1Txt {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #8794BA;
+}
+.TryForFree {
+    margin-top: 49px;
+    width: 238px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EF2A82;
+    border-radius: 68px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.TryForFree:hover {
+    background: none;
+    border: 1px solid #465B95;
+}
+.section1RightContent {
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 804px;
+}
+
+.MainFeatures {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #172755;
+}
+.sec2Txt {
+    margin-top: 34px;
+    margin-left: 60px;
+    width: 1060px;
+    height: 53px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #8794BA;
+}
+.section2 {
+    margin-top: 258px;
+    display: flex;
+    justify-content: center;
+    background: #F8F9FF;
+}
+.sec2Content1 {
+    margin-top: 38px;
+}
+.sec2Content2 {
+    margin-top: 81px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2Card1, .sec2Card2, .sec2Card3 {
+    width: 380px;
+    height: 164px;
+}
+
+.imgCards{
+    margin-left: 160px;
+}
+.sec2cardTxt1  {
+    margin-top: 26px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #172755;
+}
+.sec2cardTxt2 {
+    width: 367px;
+    margin-top: 13px;
+    margin-left: 7px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #8794BA;
+}
+.sec2Content3 {
+    margin-top: 130px;
+}
+
+.cont3Card1, .cont3Card2, .cont3Card3 {
+    display: flex;
+}
+.cont3Card2, .cont3Card3 {
+    margin-top: 65px;
+}
+.cont3Card2 {
+    justify-content: space-between;
+}
+.cont3Card3 {
+    margin-bottom: 58px;
+}
+.content3Txt {
+    width: 480px;
+    height: 232px;
+    margin-top: 89px;
+
+}
+.content3H2Txt {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #172755;
+}
+.content3PTxt {
+    margin-top: 30px;
+    width: 480px;
+    height: 108px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #8794BA;
+}
+.content3Img1, .content3Img3 {
+    margin-top: -13px;
+    margin-left: 63px;
+}
+.content3Img2 {
+    margin-top: -14px;
+    margin-left: -35px;
+}
+.section3 {
+    width: 1600px;
+    height: 1086px;
+    display: flex;
+    justify-content: center;
+    background: url(./img/section3/background-bottom.png);
+    background-color: #F8F9FF;
+}
+.sec3Card1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.PricingPlans {
+    margin-top: 272px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.sec3Card1Txt {
+    width: 695px;
+    height: 54px;
+    margin-top: 30px;
+    margin-left: 242px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #8794BA;
+}
+.section3Cards {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec3Cards {
+    width: 340px;
+    height: 440px;
+    background: rgba(15, 31, 75, 0.7);
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+    border-radius: 30px;
+}
+.sec3Cards:hover {
+    background-color: #FFFFFF;
+    box-shadow: 0px 18px 50px -15px #060F28;
+    transition: all 0.3s;
+}
+.sec3Cards:hover .cardName {
+    color: #172755;
+    transition: all 0.3s;
+}
+.sec3Cards:hover .priceCard {
+    color: #172755;
+    transition: all 0.3s;
+}
+.sec3Cards:hover .order {
+    border: none;
+    background-color: #EF2A82;
+    transition: all 0.3s;
+}
+.cardName {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.countUsers {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #8794BA;
+}
+.splitter {
+    margin-top: 37px;
+    width: 220px;
+    height: 1px;
+    margin-left: 60px;
+    background: #2A407C;
+    border: none;
+}
+.priceCard {
+    margin-top: 28px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.priceCard span {
+    font-size: 30px;
+    line-height: 35px;
+}
+.period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #8794BA;
+}
+.order {
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    margin-left: 67px;
+    border: 1px solid #2A407C;
+    border-radius: 68px;
+    background: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.sec4H2Txt {
+    margin-top: 156px;
+    margin-left: 324px;
+    width: 431px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #160637;
+}
+.section4 {
+    background: #F8F9FF;
+}
+.sec4content {
+    width: 1600px;
+    height: 740px;
+    display: flex;
+}
+.section4TrustedBy {
+    margin-top: 75px;
+    margin-left: 319px;
+    display: flex;
+    align-items: center;
+}
+.sec4Splitter {
+    width: 144px;
+    height: 0px;
+    border: 1px solid #D6D6D6;
+}
+.formLoginLink {
+    margin-top: 16px;
+    margin-left: 114.5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8989A2;
+}
+.formLoginLink span {
+    color: #722ED1;
+}
+.formLoginLink:hover {
+    color: #EF2A82;
+    transition: all 0.1s;
+}
+.TrustedBy {
+    margin-left: 24px;
+    margin-right: 36px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8989A2;
+}
+.logos {
+    margin-top: 50px;
+    margin-left: 324px;
+}
+.section4RightContent {
+    margin-left: 46px;
+    position: relative;
+
+}
+.shadowForm {
+    position: absolute;
+    margin-top: 151px;
+    z-index: 0;
+}
+.signUpOrRegistration {
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 26px;
+    width: 428px;
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 12px rgba(137, 137, 162, 0.122);
+    border-radius: 8px;
+}
+.sec4SignUp {
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #160637;
+}
+.trial_btn {
+    margin-top: 16px;   
+    margin-left: 42px;
+    width: 344px;
+    height: 48px;
+    background: #722ED1;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.trial_btn:hover {
+    background-color: #EF2A82;
+    transition: all 0.1s;
+}
+.trial_btn:active {
+    transform: translate(1px, 1px);
+    transition: all 0.3s;
+}
+.formInput{
+    margin-top: 16px;
+    margin-left: 40px;
+    padding: 16px;
+    width: 348px;
+    height: 51px;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.formInput::placeholder {
+    color: #8989A2;
+}
+.HelpUsGet {
+    margin-top: 16px;
+    margin-left: 150px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.ratingForm {
+    margin-top: 16px;
+    margin-left: 166.5px;
+    width: 95px;
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    height: 15px;
+    cursor: pointer;
+}
+.ratingSignLabel .ratingStar path {
+    fill: #8989A2;
+}
+.ratingSignInput {
+    display: none;
+}
+.check .ratingStar path {
+    fill: #FFD36F;
+}
+.valid {
+    border-color: green;
+}
+.invalid {
+    border-color: red;
+}
+.ratingStar {
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+.formSplitter {
+    margin-top: 16px;
+    margin-left: 46px;
+    width: 336px;
+    height: 0px;  
+    opacity: 0.48;
+    border: 1px solid #8989A2;
+}
+.footerLogo {
+    margin-top: 64px;
+    width: 138px;
+    height: 30px;
+}
+
+.footerLogo:hover svg path {
+    fill: #FFFFFF;
+    transition: all 0.3s;
+}
+.footerLinks {
+    width: 293px;
+    height: 16px;
+    margin-top: 70px;
+    margin-left: 305px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerLink {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8794BA;
+}
+.footerLink:hover {
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+.footerContent {
+    display: flex;
+}
+.socialLinks {
+    margin-top: 64px;
+    margin-left: 307px;
+    width: 135px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socialLink:hover path {
+    fill: #FFFFFF;
+    transition: all 0.3s;
+}
+
+@media (max-width: 375px) {
+    header {
+        width: 375px;
+        height: 70px;
+        box-shadow: 0px 4px 4px #12214D;
+    }
+    .container {
+        width: 375px;
+    }
+    .backgroundTop {
+        width: 375px;
+        height: 730px;
+        background: url(./img/header/375px/backgroundtop.svg);
+        background-color: #F8F9FF;
+    }
+    .navigation {
+        margin-top: 20px;
+        width: 375px;
+    }
+    .signUp {
+        display: none;
+    }
+    .signIn {
+        margin-top: 3px;
+    }
+    .accountlogin {
+        display: flex;
+    }
+    .menuicon {
+        margin-right: 20px;
+        margin-left: 18px;
+        display: flex;
+    }
+    .navigationLnk {
+        display: none;
+    }
+    .navLogo375px {
+        margin-left: 26px;
+        display: flex;
+    }
+    .navLogo, .navigationLogoAnalytics {
+        display: none;
+    }
+    .section1RightContent {
+        display: none;
+    }
+    .section1LeftContent {
+        width: 375px;
+        height: 302px;
+        margin-top: 10px;
+    }
+    .secImg375px {
+        display: flex;
+    }
+    .MonitorYourBusiness {
+        width: 335px;
+        height: 74px;
+        margin-left: 20px;
+        font-size: 31px;
+    }
+    .section1Txt {
+        width: 335px;
+        height: 81px;
+        margin-left: 20px;
+    }
+    .section1Txt span{
+        display: none;
+    }
+    .TryForFree {
+        margin-top: 26px;
+        margin-left: 20px;
+        width: 335px;
+    }
+    .section2 {
+        margin-top: 348px;
+    }
+    .MainFeatures {
+        width: 335px;
+        height: 35px;
+        margin-left: 20px;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: start;
+    }
+    .sec2Txt {
+        width: 335px;
+        height: 100px;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: start;
+    }
+    .sec2Content2 {
+        margin-top: 40px;
+        flex-direction: row;    
+        flex-wrap: wrap;
+    }
+    .pxCards {
+        display: flex;
+        height: 123px;
+    }
+    .sec2cardTxt2 {
+        width: 246px;
+        height: 60px;
+        font-size: 14px;
+        text-align: start;
+    }
+    .imgCards {
+        margin-left: 20px;
+    }
+    .sec2cardTxt1{
+        margin-top: 0;
+        margin-left: 27px;
+        text-align: left;
+    }
+    .sec2cardTxt2 {
+        margin-top: 7px;
+        margin-left: 27px;
+    }
+    .sec2Content3 {
+        margin-top: 50px;
+    }
+    .content3H2Txt {
+        width: 335px;
+        height: 70px;
+        margin-left: 20px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .content3Txt {
+        margin-top: 0;
+    }
+    .content3PTxt {
+        width: 335px;
+        height: 100px;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .cont3Img {
+        width: 375px;
+        height: 302px;
+    }
+    .cont3Card1, .cont3Card3 {
+        flex-wrap: wrap;
+    }
+    .cont3Card3 {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .cont3Card2 {
+        margin-top: 10px;
+        flex-wrap: wrap-reverse;
+    }
+    .content3Img1, .content3Img3 {
+        margin-top: -40px;
+        margin-left: 0;
+    }
+    .content3Img2 {
+        margin-left: 0;
+    }
+    .section3 {
+        width: 375px;
+        margin-top: -100px;
+        background: url(./img/section3/background375px.svg);
+        background-color: #F8F9FF;
+    }
+    .PricingPlans {
+        font-size: 30px;
+        line-height: 35px;
+        text-align: left;
+        margin-left: 20px;
+    }
+    .sec3Card1Txt {
+        width: 335px;
+        height: 53px;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: left;
+    }
+    .section3Cards {
+        margin-top: 59px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        gap: 20px;
+        overflow-x: scroll;
+    }
+    .sec3Cards {
+        width: 280px;
+        height: 358px;
+    }
+    .cardName {
+        margin-top: 35px;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .countUsers {
+        margin-top: 7px;
+        font-size: 13px;
+        line-height: 140%;
+    }
+    .splitter {
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .period {
+        font-size: 13px;
+    }
+    .order {
+        margin-top: 36px;
+        margin-left: 40px;
+    }
+    .sec4content {
+        width: 375px;
+    }
+    .shadowForm {
+        display: none;
+    }
+    .section4LeftContent {
+        display: none;
+    }
+    .section4RightContent {
+        margin-left: 0;
+    }
+    .signUpOrRegistration {
+        width: 375px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .trial_btn {
+        margin-left: 20px;
+    }
+    .formInput {
+        margin-left: 20px;
+    }
+    .HelpUsGet {
+        margin-left: 123px;
+    }
+    .ratingForm {
+        margin-left: 140px;
+    }
+    .formSplitter {
+        margin-left: 20px;
+    }
+    .formLoginLink {
+        margin-left: 88px;
+    }
+    footer {
+        width: 375px;
+        height: 97px;
+    }
+    .footerLinks {
+        display: none;
+    }
+    .footerLogo {
+        margin-top: 36px;
+        margin-left: 20px;
+    }
+    .socialLinks {
+        margin-top: 36px;
+        margin-left: 50px;
+    }
+
+}
