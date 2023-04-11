@@ -303,7 +303,7 @@ footer {
     flex-direction: column;
 }
 .PricingPlans {
-    margin-top: 272px;
+    margin-top: 259px;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -678,7 +678,7 @@ footer {
         display: none;
     }
     .navLogo375px {
-        margin-left: 26px;
+        margin-left: 21px;
         display: flex;
     }
     .navLogo, .navigationLogoAnalytics {
@@ -693,6 +693,7 @@ footer {
         margin-top: 10px;
     }
     .secImg375px {
+        margin-bottom: -28px;
         display: flex;
     }
     .MonitorYourBusiness {
@@ -728,7 +729,7 @@ footer {
     .sec2Txt {
         width: 335px;
         height: 100px;
-        margin-top: 20px;
+        margin-top: 22px;
         margin-left: 20px;
         font-size: 14px;
         line-height: 140%;
@@ -746,6 +747,8 @@ footer {
     .sec2cardTxt2 {
         width: 246px;
         height: 60px;
+        margin-top: 9px;
+        margin-left: 27px;
         font-size: 14px;
         text-align: start;
     }
@@ -757,12 +760,9 @@ footer {
         margin-left: 27px;
         text-align: left;
     }
-    .sec2cardTxt2 {
-        margin-top: 7px;
-        margin-left: 27px;
-    }
+    
     .sec2Content3 {
-        margin-top: 50px;
+        margin-top: 35px;
     }
     .content3H2Txt {
         width: 335px;
@@ -777,7 +777,7 @@ footer {
     .content3PTxt {
         width: 335px;
         height: 100px;
-        margin-top: 20px;
+        margin-top: 22px;
         margin-left: 20px;
         font-size: 14px;
         line-height: 140%;
@@ -794,21 +794,24 @@ footer {
         margin-bottom: 0;
     }
     .cont3Card2 {
-        margin-top: 10px;
+        margin-top: 11px;
         flex-wrap: wrap-reverse;
     }
     .content3Img1, .content3Img3 {
-        margin-top: -40px;
+        margin-top: -37px;
         margin-left: 0;
     }
     .content3Img2 {
+        margin-top: -36px;
         margin-left: 0;
     }
     .section3 {
         width: 375px;
+        height: 1019px;
         margin-top: -100px;
         background: url(./img/section3/background375px.svg);
         background-color: #F8F9FF;
+        background-position-y: -17px;
     }
     .PricingPlans {
         font-size: 30px;
@@ -852,15 +855,19 @@ footer {
         margin-left: 30px;
         margin-right: 30px;
     }
+    .priceCard {
+        margin-top: 20px;
+    }
     .period {
         font-size: 13px;
     }
     .order {
-        margin-top: 36px;
+        margin-top: 33px;
         margin-left: 40px;
     }
     .sec4content {
         width: 375px;
+        height: 509px;
     }
     .shadowForm {
         display: none;
@@ -877,9 +884,11 @@ footer {
         margin-left: 0;
     }
     .trial_btn {
+        width: 335px;
         margin-left: 20px;
     }
     .formInput {
+        width: 335px;
         margin-left: 20px;
     }
     .HelpUsGet {
@@ -905,9 +914,16 @@ footer {
         margin-top: 36px;
         margin-left: 20px;
     }
+    .footerLogo svg {
+        width: 123px;
+        height: 27px;
+    }
     .socialLinks {
-        margin-top: 36px;
-        margin-left: 50px;
+        margin-top: 35px;
+        margin-left: 61px;
+    }
+    .sec2Content1{
+        margin-top: 48px;
     }
 
 }
